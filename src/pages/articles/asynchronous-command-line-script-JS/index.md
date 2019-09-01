@@ -1,13 +1,11 @@
 ---
-date: "2018-01-16"
+date: "2018-05-22"
 title: "Asynchronous Command Line Script in Javascript"
 category: "Development"
 layout: post
 draft: false
 path: "/posts/async-command-line-script-javascript"
-tags:
-  - "Node.js"
-  - "Javascript"
+tags: ["Node.js", "Javascript"]
 description: "Running asynchronous operation in a command line JS script."
 ---
 

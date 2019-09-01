@@ -1,5 +1,5 @@
 ---
-date: "2018-01-16"
+date: "2018-08-16"
 title: "Veil Market - First Impressions"
 category: "Dapps"
 layout: post
