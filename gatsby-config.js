@@ -7,9 +7,8 @@ module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
-    subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    title: 'Yura Sherman',
+    subtitle: 'Development Blog',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -27,11 +26,11 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      name: 'Yura Sherman',
+      email: 'yurasherman@gmail.com',
+      telegram: 'yuradmt',
+      twitter: 'yurasherman',
+      github: 'borxes',
       rss: '#',
       vk: '#',
     },
