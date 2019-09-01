@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PostTemplateDetails from '../components/PostTemplateDetails'
+import '../utils/prismjs-theme.css'
 
 class PostTemplate extends React.Component {
   render() {
