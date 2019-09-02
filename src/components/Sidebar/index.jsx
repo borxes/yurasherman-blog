@@ -3,6 +3,7 @@ import get from 'lodash/get'
 import { Link } from 'gatsby'
 import Menu from '../Menu'
 import Links from '../Links'
+import TagsBlock from '../TagsBlock'
 import profilePic from '../../pages/photo.jpg'
 import './style.scss'
 
@@ -46,7 +47,6 @@ class Sidebar extends React.Component {
       </div>
     )
     /* eslint-enable jsx-a11y/img-redundant-alt */
-
     return (
       <div className="sidebar">
         <div className="sidebar__inner">
@@ -54,6 +54,12 @@ class Sidebar extends React.Component {
           <div>
             <Menu data={menu} />
             <Links data={author} />
+            {/*
+            {isHomePage
+            ? <TagsBlock posts={this.props.data.allMarkdownRemark} />
+            : <div> Not home </div>}
+            */}
+            <TagsBlock posts={this.props.data.allMarkdownRemark} />
             <p className="sidebar__copyright">{copyright}</p>
           </div>
         </div>

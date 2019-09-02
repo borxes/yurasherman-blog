@@ -1,17 +1,16 @@
 ---
 date: "2018-08-16"
 title: "Veil Market - First Impressions"
-category: "Dapps"
+category: "Ethereum"
 layout: post
 draft: false
 path: "/posts/veil-market-impressions"
 tags:
   - "Ethereum"
-  - "Dapps"
+  - "Dapp"
   - "Prediction Market"
 description: "Veil - Cryptocurrency Prediction Market - review"
 ---
-
 
 _Veil Market has suspended operations in July 2019 due to low demand_
 
