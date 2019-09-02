@@ -5,7 +5,7 @@ const url = 'https://lumen.netlify.com'
 
 module.exports = {
   siteMetadata: {
-    url,
+    url: 'https://yurasherman.com',
     siteUrl: url,
     title: 'Yura Sherman',
     subtitle: 'Development Blog',
@@ -131,7 +131,13 @@ module.exports = {
         fonts: ['roboto:400,400i,500,700'],
       },
     },
-    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        output: '/some-other-sitemap.xml',
+        exclude: ['/category/*', '/tags/*'],
+      },
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
