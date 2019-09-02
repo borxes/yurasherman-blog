@@ -54,12 +54,7 @@ class Sidebar extends React.Component {
           <div>
             <Menu data={menu} />
             <Links data={author} />
-            {/*
-            {isHomePage
-            ? <TagsBlock posts={this.props.data.allMarkdownRemark} />
-            : <div> Not home </div>}
-            */}
-            <TagsBlock posts={this.props.data.allMarkdownRemark} />
+            <TagsBlock />
             <p className="sidebar__copyright">{copyright}</p>
           </div>
         </div>
