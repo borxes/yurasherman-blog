@@ -1,7 +1,7 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://yurasherman.com'
 
 module.exports = {
   siteMetadata: {
@@ -134,7 +134,6 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-sitemap',
       options: {
-        output: '/some-other-sitemap.xml',
         exclude: ['/category/*', '/tags/*'],
       },
     },
