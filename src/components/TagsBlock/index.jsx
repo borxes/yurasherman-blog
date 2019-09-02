@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import kebabCase from 'lodash/kebabCase'
+import './style.scss'
 
 export default class TagsBlock extends React.Component {
   render() {
@@ -19,12 +20,15 @@ export default class TagsBlock extends React.Component {
 
     return (
       <div>
-        <ul>
+        <div className="tagsBlock-title">
+          Topics
+        </div>
+        <ul className="tagsBlock__list">
           {Object.keys(tagsCount).map(tag => (
-            <li key={tag}>
+            <li key={tag} className="tagsBlock__list-item">
               <Link
                 to={`/tags/${kebabCase(tag)}/`}
-                className="tags__list-item-link"
+                className="tagsBlock__list-item-link"
               >
                 {tag} ({tagsCount[tag]})
               </Link>
