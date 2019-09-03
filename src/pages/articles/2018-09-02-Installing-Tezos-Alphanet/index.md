@@ -72,4 +72,8 @@ You can check the progress by running `docker system df -v` and making sure that
 
 So here it is in a nutshell. Installing a Tezos Alphanet node is not complicated, but it also has a few quirks so you have to check on the bootstrap and gently nudge it a few times by restarting.
 
+## Alternative Installations
+
+Another option for installing a Tezos Alphanet node is to download a snapshot. At the moment, the snapshots for all three Tezos network (mainnet, alphanet and zeronet) are available at [Tulip Tools](https://snapshots.tulip.tools/#/).
+
 Thanks for reading and hope it helps.
