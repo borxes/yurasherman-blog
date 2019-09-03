@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 import PostTemplateDetails from '../components/PostTemplateDetails'
 import '../utils/prismjs-theme.css'
 
@@ -18,6 +19,10 @@ class PostTemplate extends React.Component {
           <Helmet>
             <title>{`${postTitle} - ${title}`}</title>
             <meta name="description" content={description} />
+            <SEO
+              frontmatter={post.frontmatter}
+              isBlogPost
+            />
           </Helmet>
           <PostTemplateDetails {...this.props} />
         </div>

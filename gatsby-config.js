@@ -9,8 +9,12 @@ module.exports = {
     siteUrl: url,
     title: 'Yura Sherman',
     subtitle: 'Development Blog',
+    description: 'Technical blog by Yura Sherman',
     copyright: '© All rights reserved.',
     disqusShortname: '',
+    social: {
+      twitter: 'yurasherman',
+    },
     menu: [
       {
         label: 'Articles',
