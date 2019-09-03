@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import kebabCase from 'lodash/kebabCase'
+
+import CryptoIcon from '../Utility/CryptoIcon'
 import './style.scss'
 
 export default () =>
@@ -31,6 +33,9 @@ export default () =>
                   to={`/tags/${kebabCase(tagRecord.fieldValue)}/`}
                   className="tagsBlock__list-item-link"
                 >
+                  <div className="tagsBlock__list-item-icon">
+                    <CryptoIcon crypto={tagRecord.fieldValue} />
+                  </div>
                   {tagRecord.fieldValue} ({tagRecord.totalCount})
                 </Link>
               </li>

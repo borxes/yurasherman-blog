@@ -38,6 +38,12 @@
                     border-bottom: 1px solid $color-base;
                 }
             }
+            &-icon {
+              font-size: $typographic-base-font-size;
+              color: $typographic-base-font-color;
+              float: left;
+              margin-right: 0.5rem;
+            }
         }
     }
 }
