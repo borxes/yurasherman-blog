@@ -4,21 +4,4 @@ layout: page
 path: "/contact"
 ---
 
-Email me at <yurasherman@gmail.com> or use the form below:
-
-<form name="contact" action= "/" method="POST" data-netlify="true">
-  <input type="hidden" name="bot-field" />
-  <input type="hidden" name="form-name" value="contact" />
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+Email me at <yurasherman@gmail.com> or telegram at [http://t.me/yuradmt](http://t.me/yuradmt).
