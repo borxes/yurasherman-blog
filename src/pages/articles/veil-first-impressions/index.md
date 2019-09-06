@@ -7,7 +7,6 @@ draft: false
 path: "/posts/veil-market-impressions"
 tags:
   - "Ethereum"
-  - "Dapp"
 description: "Veil - Cryptocurrency Prediction Market - review"
 ---
 
