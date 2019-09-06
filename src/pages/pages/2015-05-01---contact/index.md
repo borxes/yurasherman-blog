@@ -7,7 +7,8 @@ path: "/contact"
 Email me at <yurasherman@gmail.com> or use the form below:
 
 <form name="contact" action= "/" method="POST" data-netlify="true">
-  <input type="hidden" name="form-name" value="Contact Form" />
+  <input type="hidden" name="bot-field" />
+  <input type="hidden" name="form-name" value="contact" />
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
