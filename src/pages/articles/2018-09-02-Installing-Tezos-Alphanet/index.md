@@ -19,7 +19,11 @@ As I've discovered the hard way, your server needs at least 4GB RAM. I recommend
 
 As of today, the alphanet blockchain is about 61.5GB so you need 80GB SSD storage on your machine.
 
-I've been using a Hetzner VPS with 160GB SSD storage and 16GB RAM, so the whole synching process took about 36 hours. It will take longer if you have less RAM.
+I've been using a [Hetzner](https://www.hetzner.com) VPS with 160GB SSD storage and 16GB RAM, so the whole synching process took about 36 hours. It will take longer if you have less RAM.
+
+Other good VPS providers that I recommend are [DigitalOcean](https://m.do.co/c/b76b363cdc21), [Linode](https://www.linode.com/?r=0fb15cb08ca7516d4381a1669bd9919602e320f9) and [Amazon](https://aws.amazon.com/lightsail/).
+
+
 
 ## Preparing the VPS
 
