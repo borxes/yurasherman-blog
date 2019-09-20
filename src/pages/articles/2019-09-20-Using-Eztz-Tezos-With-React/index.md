@@ -4,7 +4,7 @@ title: "Using Eztz Tezos Javascript library with React"
 category: "Development"
 layout: post
 draft: false
-path: "/posts/how-to-install-tezos-alphanet-node"
+path: "/posts/how-to-use-eztz-with-react"
 tags: ["Tezos", "Javascript", "React"]
 description: "How to connect to the Tezos blockchain using the Eztz library and React"
 ---
